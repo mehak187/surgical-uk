@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Purpose</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/x-icon" href="/img/fav.png">
+    <script src="https://kit.fontawesome.com/088d3f36f9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="side-bar">
+        <nav>
+            <div class="close">
+                <i class="fas fa-times-circle"></i>
+            </div>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="about.html">about us</a></li>
+                <li><a class="active" href="product-catalogue.html">product catalogue</a></li>
+                <li><a href="site-works.html">site works</a></li>
+                <li><a href="exhibitions.html">exhibitions</a></li>
+                <li><a href="contact-us.html">contact us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="main">
+        <div class="container">
+            <!-- --------------------------------
+            header section 
+        -------------------------------- -->
+        <header>
+            <div class="logo-sec">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.png" alt="logo">
+                    <!-- <span>Maju asiamas sdn bhd</span> -->
+                </a>
+                <div class="togg">
+                    <i class="fas fa-bars"></i>
+                </div>
+                
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a class="active" href="product-catalogue.html">product catalogue</a></li>
+                    <li><a href="site-works.html">site works</a></li>
+                    <li><a href="exhibitions.html">exhibitions</a></li>
+                    <li><a href="contact-us.html">contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+            <!-- --------------------------------
+            hero section 
+        -------------------------------- -->
+            <div class="hero-sec">
+                <div class="hero-left">
+                    <h1>Product Catalogue</h1>
+                    <p>We are pleased to offer a wide range of products, including engineering plastics, industrial
+                        fiberglass, and stainless steel works. Our team of professionals specializes in designing,
+                        fabricating, and installing custom-made products to meet your specific needs.
+                        <br>
+                        In our Product Catalogue, you'll find a variety of items, including custom-designed lab
+                        cabinetry and furniture, piping systems, Poly-Propylene materials, PVC tanks, scrubber units,
+                        and other products. We take great pride in our work and use the latest technology and equipment
+                        to ensure that our products are of the highest quality and craftsmanship.
+                    </p>
+                </div>
+                <div class="hero-right">
+
+                </div>
+            </div>
+            <!-- --------------------------------
+                home-content section
+            -------------------------------- -->
+            <section class="expertise-sec">
+                <div class="catl-head">
+                    <h2>General Purpose</h2>
+                    <a href="pdfs/general-fc.pdf" target="_blank" class="cmn-btn">Download General FC</a>
+                </div>
+                <div class="exp-box-main">
+                    <div class="expertise-box">
+                        <h2>Custom Made Fume Cupboard</h2>
+                        <div class="ex-img">
+                            <img src="img/general-1.jfif" alt="fan">
+                        </div>
+                    </div>
+                    <div class="expertise-box">
+                        <h2>Fume Cupboard With Scrubber</h2>
+                        <div class="ex-img">
+                            <img src="img/general-2.jpg" alt="fan">
+                        </div>
+                    </div>
+                    <div class="expertise-box">
+                        <h2>Fume Cupboard</h2>
+                        <div class="ex-img">
+                            <img src="img/general-3.jpg" alt="fan">
+                        </div>
+                    </div>
+                    <div class="expertise-box">
+                        <h2>General Purpose Fume Cupboard</h2>
+                        <div class="ex-img">
+                            <img src="img/general-4.jpg" alt="fan">
+                        </div>
+                    </div>
+                    <div class="expertise-box">
+                        <h2>Glove Box</h2>
+                        <div class="ex-img">
+                            <img src="img/general-5.png" alt="fan">
+                        </div>
+                    </div>
+                    <div class="expertise-box">
+                        <h2>Mild Steel Fume Cupboard With Horizontal Sash
+                        </h2>
+                        <div class="ex-img">
+                            <img src="img/general-6.jfif" alt="fan">
+                        </div>
+                    </div>
+                   
+                </div>
+            </section>
+        </div>
+    </section>
+  <!-- ---------copyright------ -->
+  <div class="copyright">
+    <p>Maju Asiamas Sdn Bhd © 2016</p>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    
+    <script>
+    $(document).ready(function() {
+      $('.togg').click(function() {
+        $('.side-bar').addClass('active');
+      });
+      $('.close').click(function() {
+        $('.side-bar').removeClass('active');
+      });
+    });
+    </script>
+
+</body>
+
+</html>
